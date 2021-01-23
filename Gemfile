@@ -80,7 +80,7 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'quiet_assets'
-  gem 'mails_viewer'
+  gem 'mails_viewer', '>= 0.1.2'
   gem 'timecop'
   gem 'dotenv-rails'
   gem 'rspec-rails'
