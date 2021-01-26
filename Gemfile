@@ -93,7 +93,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'launchy'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.39.0'
   gem 'poltergeist'
 
   # rspec-rails rely on test-unit if rails version less then 4.1.0
